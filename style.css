@@ -67,8 +67,9 @@ nav ul li a:hover{
     margin-top: 20px;
     text-decoration: none;
     color: black;
+    transition: 0.4s;
 }
 .link-area li a:hover{
     text-decoration: underline;
-    color: #192a56;
+    color: #ffa502;
 }
