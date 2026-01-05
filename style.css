@@ -36,10 +36,14 @@ nav ul li a:hover{
     background-color: #f1f2f6;
     width: 100%;
     height: 100px;
+    
 }
 .footer-header{
     display: flex;
     gap: 150px;
+     position: sticky;
+    top: 0;
+    left: 0;
 }
 .header-area h3{
     font-size: 25px;
@@ -74,10 +78,65 @@ nav ul li a:hover{
     color: #ffa502;
 }
 .hero-area {
-    background-image: url(images/ivac.jpg);
+    background-image: url(images/banar.jpg);
     width: 100%;
     height: 650px;
     background-repeat: no-repeat;
     background-size: cover;
     
+}
+.message-area{
+    background-color: #f1f2f6;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.message-box{
+    background-color: white;
+    width: 90%;
+    height: 300px;
+    box-shadow: 2px 2px 2px black;
+
+}
+.message-box h4{
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+    font-weight: bolder;
+}
+.message-box p{
+    font-size: 20px;
+    padding: 10px;
+    color: #2f3542;
+}
+.btn-1{
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    padding: 10px;
+    margin-left: 10px;
+}
+.btn-1:hover{
+    background-color: #fbc531;
+   
+}
+.footer-area{
+    background-color: #273c75;
+    width: 100%;
+    height: 350px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+.footer-area p{
+    display: flex;
+    font-size: 20px;
+    align-items: end;
+    color: #f1f2f6;
+    
+
 }
